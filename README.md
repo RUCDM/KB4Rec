@@ -8,7 +8,7 @@ Project address：[https://github.com/RUCDM/KB4Rec/](https://github.com/RUCDM/KB
 * [相关论文](#相关论文)
 * [作者](#作者)
 
-## Datasets
+## Datasets<div id="Datasets"></div>
    KB4Rec is a Knowledge-aware Recommender dataset. Now the datasets consists of 3 domains
  法律合同分析平台是中国人民大学信息学院大数据分析与智能实验室研制推出的一套基于自然语言处理算法和神经网络的分析系统，采用多种不同的算法模型对合同类别进行分类，同时能够自动抽取出合同的基本信息（例如甲乙双方的姓名，借款金额，借款时间，借款原因）并将相关条款提取出来。具有如下特点:
 1. 速度快，提交纯文本合同，到返回分类结果所需时间仅１s，目前还在不断地优化中
