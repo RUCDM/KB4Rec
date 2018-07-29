@@ -3,7 +3,7 @@ This is the data for KB4Rec
 Project address：[https://github.com/RUCDM/KB4Rec/](https://github.com/RUCDM/KB4Rec/)
 
 ## 目录
-* [Datasets](#Datasets)
+* [Datasets](#本项目中用到的模型)
 * [本项目中用到的模型](#本项目中用到的模型)
 * [相关论文](#相关论文)
 * [作者](#作者)
