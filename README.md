@@ -27,9 +27,9 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
 ### Linkage Detail Statis：
 | Dataset                 | Items      |    Linked-Items    |  Linkage-ratio   | 
 |:-------------------------:|:-------------:|:------------:|:------------:|
-|Movielens-20m|27,279 |25,982|95.2%|
-|music|6,479,700 |1,254,923|19.4%|
-|book|2,330,066 |109,671|4.7%|
+|MovieLens-20M|27,279 |25,982|95.2%|
+|LFM-1b|6,479,700 |1,254,923|19.4%|
+|Amazon book|2,330,066 |109,671|4.7%|
 
 ## <div id="Models"></div>Models
 * KSR [2]
