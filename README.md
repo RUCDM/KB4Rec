@@ -22,7 +22,7 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
    For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
 
-   We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon Book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. 
+   We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. 
 
 ### Linkage Detail Statis：
 | Dataset                 | Items      |    Linked-Items    |  Linkage-ratio   | 
