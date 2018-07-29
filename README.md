@@ -1,8 +1,7 @@
 # KB4Rec
-This is the data for KB4Rec
-Project address：[https://github.com/RUCDM/KB4Rec/](https://github.com/RUCDM/KB4Rec/)
+This Project is a description of the dataset KB4Rec, A Knowledge-Aware recommder linkage dataset.
 
-## 目录
+## Directory
 * [Descriptions](#Descriptions)
 * [Datasets](#Datasets)
 * [Models](#Models)
