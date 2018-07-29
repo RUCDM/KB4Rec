@@ -12,7 +12,7 @@ Project address：[https://github.com/RUCDM/KB4Rec/](https://github.com/RUCDM/KB
    KB4Rec is a Knowledge-aware Recommender dataset. Now the datasets consists of 3 domains
 
 ## <div id="Models"></div>Models
-* KSR [1]
+* KSR[1]
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
 
 
