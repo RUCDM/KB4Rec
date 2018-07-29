@@ -17,7 +17,7 @@ Project address：[https://github.com/RUCDM/KB4Rec/](https://github.com/RUCDM/KB
 
 
 ## <div id="Papers"></div>Papers
-* [1]Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514.
+* [1]Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 
 ## <div id="Authors"></div>Authors
 Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang
