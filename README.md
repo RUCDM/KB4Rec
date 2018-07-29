@@ -1,5 +1,5 @@
 # KB4Rec
-This Project is a description of the dataset KB4Rec, A Knowledge-Aware recommder linkage dataset.
+This Project is a description of the dataset KB4Rec, a knowledge-aware recommder linkage dataset.
 
 ## Directory
 * [Descriptions](#Descriptions)
@@ -12,7 +12,7 @@ This Project is a description of the dataset KB4Rec, A Knowledge-Aware recommder
 <!--
 Nowadays, recommender systems (RS), which aim to match users with interested items, have played an important role in various online applications. Traditional recommendation algorithms mainly focus on learning effective preference models from historical user-item interaction data, e.g. matrix factorization. With the rapid development of Web techniques, various kinds of side information has become available in RSs, called context. In an early stage, such context information is usually unstructured, and its availability is limited to specific data domains or platforms.-->
    
-   Recently, more and more efforts have been made by both research and industry communities for structurizing world knowledge or domain facts in a variety of data domains. One of the most typical organization forms is knowledge base (KB), also called knowledge graph. KBs provide a general and unified way to organize and relate information entities, which have been shown to be useful in many applications. Specially, KBs have also been used in recommender systems, called knowledge-aware recommender systems[1].
+   Recently, more and more efforts have been made by both research and industry communities for structurizing world knowledge or domain facts in a variety of data domains. One of the most typical organization forms is knowledge base (KB), also called knowledge graph. KBs provide a general and unified way to organize and relate information entities, which have been shown to be useful in many applications. Specially, KBs have also been used in recommender systems, called knowledge-aware recommender systems [1].
    
    To address the need for the linked dataset of RS and KBs, we present the first public linked KB dataset for recommender systems, named KB4Rec v1.0.
    
@@ -24,7 +24,7 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
 
    We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. 
 
-### Linkage Detail Statis：
+### Linkage Detail Statistics：
 | Dataset                 | Items      |    Linked-Items    |  Linkage-ratio   | 
 |:-------------------------:|:-------------:|:------------:|:------------:|
 |MovieLens 20M|27,279 |25,982|95.2%|
@@ -44,5 +44,44 @@ If you use the dataset, please cite the paper [2],[3] listed in our reference.
 * [2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 * [3] Our work.
 
+## <div id="References"></div>References
+   You can cite this dataset as below.
+<!--   
+@inproceedings{DBLP:conf/sigir/HuangZDWC18,
+  
+  author    = {Jin Huang and
+               
+               Wayne Xin Zhao and
+               
+               Hong{-}Jian Dou and
+               
+               Ji{-}Rong Wen and
+               
+               Edward Y. Chang},
+               
+  title     = {Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks},
+  
+  booktitle = {The 41st International {ACM} {SIGIR} Conference on Research {\&}
+               Development in Information Retrieval, {SIGIR} 2018, Ann Arbor, MI,
+               USA, July 08-12, 2018},
+               
+  pages     = {505--514},
+  
+  year      = {2018},
+  
+  crossref  = {DBLP:conf/sigir/2018},
+  
+  url       = {http://doi.acm.org/10.1145/3209978.3210017},
+  
+  doi       = {10.1145/3209978.3210017},
+  
+  timestamp = {Mon, 02 Jul 2018 08:24:13 +0200},
+  
+  biburl    = {https://dblp.org/rec/bib/conf/sigir/HuangZDWC18},
+  
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+  
+}
+-->
 ## <div id="Authors"></div>Authors
 Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang
