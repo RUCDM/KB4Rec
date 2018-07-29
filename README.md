@@ -19,15 +19,15 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
 ## <div id="Datasets"></div>Datasets
    In our KB4RecSys v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs.
    
-   For example, the movie of <Avatar> from Movielens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
+   For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
 
-   We consider three popular RS datasets for linkage, namely MovieLens, LFM-1b and Amazon Book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. 
+   We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon Book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. 
 
 ### Linkage Detail Statis：
 | Dataset                 | Items      |    Linked-Items    |  Linkage-ratio   | 
 |:-------------------------:|:-------------:|:------------:|:------------:|
-|MovieLens-20M|27,279 |25,982|95.2%|
+|MovieLens 20M|27,279 |25,982|95.2%|
 |LFM-1b|6,479,700 |1,254,923|19.4%|
 |Amazon book|2,330,066 |109,671|4.7%|
 
