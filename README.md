@@ -1,5 +1,5 @@
 # KB4Rec
-This project is a description of the dataset KB4Rec, a knowledge-aware recommder linkage dataset.
+This project is a description for dataset KB4Rec, a knowledge-aware recommder linkage dataset.
 
 ## Directory
 * [Descriptions](#Descriptions)
