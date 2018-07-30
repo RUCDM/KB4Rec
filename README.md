@@ -5,11 +5,10 @@ We released a linked dataset for research on knowledge-aware recommender systems
 * [Motivations](#Motivations)
 * [Datasets](#Datasets)
 * [DownLoad and Usage](#Download)
-* [Papers Related](#Papers)
 * [References](#References)
 * [Additional Notes](#Addition)
 
-## <div id="Motivations"></div>Descriptions
+## <div id="Motivations"></div>Motivations
 <!--
 Nowadays, recommender systems (RS), which aim to match users with interested items, have played an important role in various online applications. Traditional recommendation algorithms mainly focus on learning effective preference models from historical user-item interaction data, e.g. matrix factorization. With the rapid development of Web techniques, various kinds of side information has become available in RSs, called context. In an early stage, such context information is usually unstructured, and its availability is limited to specific data domains or platforms.-->
    
