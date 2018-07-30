@@ -1,11 +1,12 @@
 # KB4Rec
-This Project is a description of the dataset KB4Rec, a knowledge-aware recommder linkage dataset.
+This project is a description of the dataset KB4Rec, a knowledge-aware recommder linkage dataset.
 
 ## Directory
 * [Descriptions](#Descriptions)
 * [Datasets](#Datasets)
 * [Models](#Models)
 * [Papers](#Papers)
+* [References](#References)
 * [Authors](#Authors)
 
 ## <div id="Descriptions"></div>Descriptions
@@ -31,6 +32,8 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
 |LFM-1b|6,479,700 |1,254,923|19.4%|
 |Amazon book|2,330,066 |109,671|4.7%|
 
+   For more details of our linkage, please refer to our dataset [paper](www.baidu.com).
+
 ## <div id="Models"></div>Models
 * KSR [2]
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
@@ -46,42 +49,30 @@ If you use the dataset, please cite the paper [2],[3] listed in our reference.
 
 ## <div id="References"></div>References
    You can cite this dataset as below.
-<!--   
+
+```
 @inproceedings{DBLP:conf/sigir/HuangZDWC18,
-  
   author    = {Jin Huang and
-               
                Wayne Xin Zhao and
-               
                Hong{-}Jian Dou and
-               
                Ji{-}Rong Wen and
-               
                Edward Y. Chang},
-               
-  title     = {Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks},
-  
+  title     = {Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks}
   booktitle = {The 41st International {ACM} {SIGIR} Conference on Research {\&}
                Development in Information Retrieval, {SIGIR} 2018, Ann Arbor, MI,
-               USA, July 08-12, 2018},
-               
-  pages     = {505--514},
-  
+               USA, July 08-12, 2018}
+  pages     = {505--514}
   year      = {2018},
-  
   crossref  = {DBLP:conf/sigir/2018},
-  
   url       = {http://doi.acm.org/10.1145/3209978.3210017},
-  
   doi       = {10.1145/3209978.3210017},
-  
   timestamp = {Mon, 02 Jul 2018 08:24:13 +0200},
-  
   biburl    = {https://dblp.org/rec/bib/conf/sigir/HuangZDWC18},
-  
   bibsource = {dblp computer science bibliography, https://dblp.org}
-  
 }
--->
-## <div id="Authors"></div>Authors
-Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang
+```
+
+
+## <div id="Addtion"></div>Addtion Notes
+* The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
+* If you have any questions or suggestions with this dataset, please kindly let us know. Our goal is to make the dataset reliable and useful for the community.
