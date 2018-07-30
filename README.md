@@ -1,15 +1,15 @@
 # KB4Rec
-This project is a description for dataset KB4Rec, a knowledge-aware recommder linkage dataset.
-
+<!--This project is a description for dataset KB4Rec, a knowledge-aware recommder linkage dataset.-->
+We released a linked dataset for research on knowledge-aware recommender systems: KB4Rec v1.0. It aims to associate items from recommender systems with entities from Freebase. 
 ## Directory
-* [Descriptions](#Descriptions)
+* [Motivations](#Motivations)
 * [Datasets](#Datasets)
 * [DownLoad and Usage](#Download)
 * [Papers Related](#Papers)
 * [References](#References)
 * [Additional Notes](#Addition)
 
-## <div id="Descriptions"></div>Descriptions
+## <div id="Motivations"></div>Descriptions
 <!--
 Nowadays, recommender systems (RS), which aim to match users with interested items, have played an important role in various online applications. Traditional recommendation algorithms mainly focus on learning effective preference models from historical user-item interaction data, e.g. matrix factorization. With the rapid development of Web techniques, various kinds of side information has become available in RSs, called context. In an early stage, such context information is usually unstructured, and its availability is limited to specific data domains or platforms.-->
    
@@ -18,12 +18,18 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
    To address the need for the linked dataset of RS and KBs, we present the first public linked KB dataset for recommender systems, named KB4Rec v1.0.
    
 ## <div id="Datasets"></div>Datasets
-   In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs.
-   
-   For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
-
-   We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. 
-
+   <!--In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs.-->
+In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Here, we present a screenshot of a file snippet.
+```   
+movie_25991	m.09pglcq
+movie_25993	m.0cjwhb
+movie_25994	m.0k443
+movie_25995	m.0b7kj8
+```
+<!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
+Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
+   We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. For more details of our linkage, please refer to our dataset [paper](www.baidu.com).
+   We present the statistics of the linked dataset in the following table
 ### Linkage Detail Statistics：
 | Dataset                 | Items      |    Linked-Items    |  Linkage-ratio   | 
 |:-------------------------:|:-------------:|:------------:|:------------:|
@@ -31,38 +37,46 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
 |LFM-1b|6,479,700 |1,254,923|19.4%|
 |Amazon book|2,330,066 |109,671|4.7%|
 
-   For more details of our linkage, please refer to our dataset [paper](www.baidu.com).
+   
 <!--
 ## <div id="Models"></div>Models
 * KSR [2]
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
 -->
 ## <div id="Download"></div>DownLoad and Usage
-<!--To use the datasets, you must read and accept the online agreement.--> By using the datasets, you agree to be bound by the terms of its license. Send email to RUCKB4Rec@gmail.com. The email should contain following contents:
+<!--To use the datasets, you must read and accept the online agreement.By using the datasets, you agree to be bound by the terms of its license. Send email to RUCKB4Rec@gmail.com. The email should contain following contents:--> 
+For obtaining the dataset, please read the following instructions:
+(1) Send the data request to the email address RUC_KB4Rec@gmail.com, and cc Wayne Xin Zhao via batmanfly@gmail.com .
+(2) The request email should be entitled “For the copy of KB4Rec v1.0”
+(3) If you are a student, please clearly state your name and university. Please include the name and affiliation of your supervisor in the email, and must cc your supervisor.
+(4) You must copy the following statement into your email.
 
+By using the datasets, I agree to be bound by the terms of the following license.
 ```
 License agreement
 This dataset is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation. Permission is granted to use the data given that you agree:
-1. That the dataset comes “AS IS”, without express or implied warranty. Although every effort has been made to ensure accuracy, we do not accept any responsibility for errors or omissions.
-2. That you include a reference to the KB4Rec v1.0 dataset in any work that makes use of the dataset. For research papers, cite our preferred publication as listed on our References; for other media cite our preferred publication as listed on our website or link to the Cityscapes website.
+1. That the dataset comes “AS IS”, without express or implied warranty. Although every effort has been made to ensure accuracy, we do not accept any responsibility for errors or omissions. 
+2. That you include a reference to the KB4Rec v1.0 dataset in any work that makes use of the dataset. For research papers, cite our preferred publication as listed on our References; for other media cite our preferred publication as listed on our website or link to the dataset website.
 3. That you do not distribute this dataset or modified versions. It is permissible to distribute derivative works in as far as they are abstract representations of this dataset (such as models trained on it or additional annotations that do not directly include any of our data) and do not allow to recover the dataset or something similar in character.
 4. That you may not use the dataset or any derivative work for commercial purposes as, for example, licensing or selling the data, or using the data with a purpose to procure a commercial gain.
 5. That all rights not expressly granted to you are reserved by us (Wayne Xin Zhao, School of Information, Renmin University of China).
-I have seen this license, and accept it.
+
+I have read this license, and accept it.
 ```
 
-If you use the dataset, please cite the paper [2],[3] listed in our reference.
+<!--If you use the dataset, please cite the paper [2],[3] listed in our reference.
 
 ## <div id="Papers"></div>Papers Related
 Thre are some papers which use our dataset, you can refer to them. If your paper is not listed, please let us know RUCKB4Rec@gmail.com.
 
 * Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
-
+-->
 ## <div id="References"></div>References
+<!--
 * [1] Fuzheng Zhang, Nicholas Jing Yuan, Defu Lian, Xing Xie, Wei-Ying Ma. Collaborative Knowledge Base Embedding for Recommender Systems. KDD 2016: 353-362. [paper](https://dl.acm.org/citation.cfm?doid=2939672.2939673)
 * [2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 * [3] Our work.
-
+-->
    You can cite this dataset as below.
 
 ```
@@ -86,7 +100,7 @@ Thre are some papers which use our dataset, you can refer to them. If your paper
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
-
+We also strongly recommend you to cite the original papers that share the copies of recommender system datasets and knowledge bases. You can find the related references in our paper. 
 
 ## <div id="Addition"></div>Additional Notes
 * The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
