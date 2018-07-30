@@ -30,7 +30,9 @@ Once such a linkage has been accomplished, it is able to reuse existing large-sc
 
    We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. For more details of our linkage, please refer to our dataset [paper](www.baidu.com).
    
-   We present the statistics of the linked dataset in the following table
+   We present the statistics of the linked dataset in the following table:
+   
+   ![detail statistics](table.png)
 <!--
 ### Linkage Detail Statistics：
 | Dataset                 | Items      |    Linked-Items    |  Linkage-ratio   | 
