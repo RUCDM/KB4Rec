@@ -4,10 +4,10 @@ This project is a description of the dataset KB4Rec, a knowledge-aware recommder
 ## Directory
 * [Descriptions](#Descriptions)
 * [Datasets](#Datasets)
-* [Models](#Models)
-* [Papers](#Papers)
+* [DownLoad and Usage](#Download)
+* [Papers Related](#Papers)
 * [References](#References)
-* [Authors](#Authors)
+* [Addtion Notes](#Addtion Notes)
 
 ## <div id="Descriptions"></div>Descriptions
 <!--
@@ -22,7 +22,6 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
    
    For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
-
    We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. 
 
 ### Linkage Detail Statistics：
@@ -33,21 +32,30 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
 |Amazon book|2,330,066 |109,671|4.7%|
 
    For more details of our linkage, please refer to our dataset [paper](www.baidu.com).
-
+<!--
 ## <div id="Models"></div>Models
 * KSR [2]
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
-
+-->
 ## <div id="Download"></div>DownLoad and Usage
-To use the datasets, you must read and accept the online agreement. By using the datasets, you agree to be bound by the terms of its license. Send email to xxx. The email format should contain following contents:
+To use the datasets, you must read and accept the [online agreement](). By using the datasets, you agree to be bound by the terms of its license. Send email to xxx. The email format should contain following contents:
+
+```
+
+```
 
 If you use the dataset, please cite the paper [2],[3] listed in our reference.
-## <div id="Papers"></div>Papers
+
+## <div id="Papers"></div>Papers Related
+Thre are som papers which use our dataset, yu can refer to them. If your paper is not listed, please let us know xxx@.cn.
+
+* Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code]
+
+## <div id="References"></div>References
 * [1] Fuzheng Zhang, Nicholas Jing Yuan, Defu Lian, Xing Xie, Wei-Ying Ma. Collaborative Knowledge Base Embedding for Recommender Systems. KDD 2016: 353-362. [paper](https://dl.acm.org/citation.cfm?doid=2939672.2939673)
 * [2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 * [3] Our work.
 
-## <div id="References"></div>References
    You can cite this dataset as below.
 
 ```
