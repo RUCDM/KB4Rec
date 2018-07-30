@@ -47,7 +47,7 @@ To use the datasets, you must read and accept the [online agreement](). By using
 If you use the dataset, please cite the paper [2],[3] listed in our reference.
 
 ## <div id="Papers"></div>Papers Related
-Thre are som papers which use our dataset, yu can refer to them. If your paper is not listed, please let us know xxx@.cn.
+Thre are some papers which use our dataset, you can refer to them. If your paper is not listed, please let us know xxx@.cn.
 
 * Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 
