@@ -7,7 +7,7 @@ This project is a description for dataset KB4Rec, a knowledge-aware recommder li
 * [DownLoad and Usage](#Download)
 * [Papers Related](#Papers)
 * [References](#References)
-* [Addtion Notes](#Addtion)
+* [Additional Notes](#Addition)
 
 ## <div id="Descriptions"></div>Descriptions
 <!--
@@ -81,6 +81,6 @@ Thre are some papers which use our dataset, you can refer to them. If your paper
 ```
 
 
-## <div id="Addtion"></div>Addtion Notes
+## <div id="Addition"></div>Additional Notes
 * The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
 * If you have any questions or suggestions with this dataset, please kindly let us know. Our goal is to make the dataset reliable and useful for the community.
