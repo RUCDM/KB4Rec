@@ -7,7 +7,7 @@ This project is a description for dataset KB4Rec, a knowledge-aware recommder li
 * [DownLoad and Usage](#Download)
 * [Papers Related](#Papers)
 * [References](#References)
-* [Addtion Notes](#Addtion Notes)
+* [Addtion Notes](#Addtion)
 
 ## <div id="Descriptions"></div>Descriptions
 <!--
@@ -49,7 +49,7 @@ If you use the dataset, please cite the paper [2],[3] listed in our reference.
 ## <div id="Papers"></div>Papers Related
 Thre are som papers which use our dataset, yu can refer to them. If your paper is not listed, please let us know xxx@.cn.
 
-* Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code]
+* Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 
 ## <div id="References"></div>References
 * [1] Fuzheng Zhang, Nicholas Jing Yuan, Defu Lian, Xing Xie, Wei-Ying Ma. Collaborative Knowledge Base Embedding for Recommender Systems. KDD 2016: 353-362. [paper](https://dl.acm.org/citation.cfm?doid=2939672.2939673)
