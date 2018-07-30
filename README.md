@@ -38,7 +38,7 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
 -->
 ## <div id="Download"></div>DownLoad and Usage
-To use the datasets, you must read and accept the [online agreement](). By using the datasets, you agree to be bound by the terms of its license. Send email to xxx. The email format should contain following contents:
+<!--To use the datasets, you must read and accept the online agreement-->. By using the datasets, you agree to be bound by the terms of its license. Send email to xxx. The email format should contain following contents:
 
 ```
 
