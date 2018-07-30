@@ -27,8 +27,11 @@ movie_25995	m.0b7kj8
 ```
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
 Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
+
    We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. For more details of our linkage, please refer to our dataset [paper](www.baidu.com).
+   
    We present the statistics of the linked dataset in the following table
+<!--
 ### Linkage Detail Statistics：
 | Dataset                 | Items      |    Linked-Items    |  Linkage-ratio   | 
 |:-------------------------:|:-------------:|:------------:|:------------:|
@@ -36,8 +39,6 @@ Once such a linkage has been accomplished, it is able to reuse existing large-sc
 |LFM-1b|6,479,700 |1,254,923|19.4%|
 |Amazon book|2,330,066 |109,671|4.7%|
 
-   
-<!--
 ## <div id="Models"></div>Models
 * KSR [2]
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
@@ -45,13 +46,19 @@ Once such a linkage has been accomplished, it is able to reuse existing large-sc
 ## <div id="Download"></div>DownLoad and Usage
 <!--To use the datasets, you must read and accept the online agreement.By using the datasets, you agree to be bound by the terms of its license. Send email to RUCKB4Rec@gmail.com. The email should contain following contents:--> 
 For obtaining the dataset, please read the following instructions:
-(1) Send the data request to the email address RUC_KB4Rec@gmail.com, and cc Wayne Xin Zhao via batmanfly@gmail.com .
+
+(1) Send the data request to the email address RUCKB4Rec@gmail.com, and cc Wayne Xin Zhao via batmanfly@gmail.com .
+
 (2) The request email should be entitled “For the copy of KB4Rec v1.0”
+
 (3) If you are a student, please clearly state your name and university. Please include the name and affiliation of your supervisor in the email, and must cc your supervisor.
+
 (4) You must copy the following statement into your email.
 
-By using the datasets, I agree to be bound by the terms of the following license.
+
+
 ```
+By using the datasets, I agree to be bound by the terms of the following license.
 License agreement
 This dataset is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation. Permission is granted to use the data given that you agree:
 1. That the dataset comes “AS IS”, without express or implied warranty. Although every effort has been made to ensure accuracy, we do not accept any responsibility for errors or omissions. 
