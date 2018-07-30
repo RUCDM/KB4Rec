@@ -38,7 +38,7 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
 -->
 ## <div id="Download"></div>DownLoad and Usage
-<!--To use the datasets, you must read and accept the online agreement.--> By using the datasets, you agree to be bound by the terms of its license. Send email to xxx. The email format should contain following contents:
+<!--To use the datasets, you must read and accept the online agreement.--> By using the datasets, you agree to be bound by the terms of its license. Send email to RUCKB4Rec@gmail.com. The email should contain following contents:
 
 ```
 License agreement
@@ -54,7 +54,7 @@ I have seen this license, and accept it.
 If you use the dataset, please cite the paper [2],[3] listed in our reference.
 
 ## <div id="Papers"></div>Papers Related
-Thre are some papers which use our dataset, you can refer to them. If your paper is not listed, please let us know xxx@.cn.
+Thre are some papers which use our dataset, you can refer to them. If your paper is not listed, please let us know RUCKB4Rec@gmail.com.
 
 * Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 
