@@ -77,13 +77,13 @@ I have read this license, and accept it.
 ```
 
 ## <div id="Papers"></div>Papers Related
-[1] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016)
+[1] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016).
 
-[2] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110
+[2] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110.
 
-[3] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517
+[3] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517.
 
-[4] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/ data.
+[4] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
 
 <!--
 * Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
