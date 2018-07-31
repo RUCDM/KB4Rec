@@ -28,7 +28,7 @@ movie_25995	m.0b7kj8
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
 Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
-   We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. For more details of our linkage, please refer to our dataset [paper](www.baidu.com).
+   We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, We adopt the large-scale pubic KB Freebase. For more details of our linkage, please refer to our dataset [paper](https://arxiv.org/abs/1807.11141).
    
    We present the statistics of the linked dataset in the following table:
    
@@ -108,7 +108,7 @@ Thre are some papers which use our dataset, you can refer to them. If your paper
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
-We also strongly recommend you to cite the original papers that share the copies of recommender system datasets and knowledge bases. You can find the related references in our paper. 
+We also strongly recommend you to cite the [original papers](https://arxiv.org/abs/1807.11141) that share the copies of recommender system datasets and knowledge bases. You can find the related references in our paper. 
 
 ## <div id="Addition"></div>Additional Notes
 * The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
