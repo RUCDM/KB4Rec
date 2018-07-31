@@ -5,6 +5,7 @@ We released a linked dataset for research on knowledge-aware recommender systems
 * [Motivations](#Motivations)
 * [Datasets](#Datasets)
 * [DownLoad and Usage](#Download)
+* [Related Papers](#Papers)
 * [References](#References)
 * [Additional Notes](#Addition)
 
@@ -31,7 +32,7 @@ In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs,
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
 Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
-   We consider three popular RS datasets for linkage, namely MovieLens 20M, LFM-1b and Amazon book, which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase. For more details of our linkage, please refer to [our dataset paper](https://arxiv.org/abs/1807.11141).
+   We consider three popular RS datasets for linkage, namely MovieLens 20M [1], LFM-1b [2] and Amazon book [3], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase. For more details of our linkage, please refer to [our dataset paper](https://arxiv.org/abs/1807.11141).
    
    We present the statistics of the linked dataset in the following table:
    
@@ -45,7 +46,7 @@ Once such a linkage has been accomplished, it is able to reuse existing large-sc
 |Amazon book|2,330,066 |109,671|4.7%|
 
 ## <div id="Models"></div>Models
-* KSR [2]
+* KSR 
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
 -->
 ## <div id="Download"></div>DownLoad and Usage
@@ -75,19 +76,19 @@ This dataset is made freely available to academic and non-academic entities for 
 I have read this license, and accept it.
 ```
 
-<!--If you use the dataset, please cite the paper [2],[3] listed in our reference.
-
 ## <div id="Papers"></div>Papers Related
-Thre are some papers which use our dataset, you can refer to them. If your paper is not listed, please let us know RUCKB4Rec@gmail.com.
+[1] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016)
 
+[2] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110
+
+[3] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517
+
+[4] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/ data.
+
+<!--
 * Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 -->
 ## <div id="References"></div>References
-<!--
-* [1] Fuzheng Zhang, Nicholas Jing Yuan, Defu Lian, Xing Xie, Wei-Ying Ma. Collaborative Knowledge Base Embedding for Recommender Systems. KDD 2016: 353-362. [paper](https://dl.acm.org/citation.cfm?doid=2939672.2939673)
-* [2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
-* [3] Our work.
--->
    You can cite this dataset as below.
 
 ```
@@ -120,7 +121,7 @@ Thre are some papers which use our dataset, you can refer to them. If your paper
 }
 
 ```
-We also strongly recommend you to cite the original papers that share the copies of recommender system datasets and knowledge bases. You can find the related references in our paper. 
+We also strongly recommend you to cite the original papers that share the copies of recommender system datasets[1,2,3] and knowledge bases[4]. You can find the related references in our paper. 
 
 ## <div id="Addition"></div>Additional Notes
 * The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
