@@ -12,13 +12,16 @@ We released a linked dataset for research on knowledge-aware recommender systems
 <!--
 Nowadays, recommender systems (RS), which aim to match users with interested items, have played an important role in various online applications. Traditional recommendation algorithms mainly focus on learning effective preference models from historical user-item interaction data, e.g. matrix factorization. With the rapid development of Web techniques, various kinds of side information has become available in RSs, called context. In an early stage, such context information is usually unstructured, and its availability is limited to specific data domains or platforms.-->
    
-   Recently, more and more efforts have been made by both research and industry communities for structurizing world knowledge or domain facts in a variety of data domains. One of the most typical organization forms is knowledge base (KB), also called knowledge graph. KBs provide a general and unified way to organize and relate information entities, which have been shown to be useful in many applications. Specially, KBs have also been used in recommender systems, called knowledge-aware recommender systems [1].
+   Recently, more and more efforts have been made by both research and industry communities for structurizing world knowledge or domain facts in a variety of data domains. One of the most typical organization forms is knowledge base (KB), also called knowledge graph. KBs provide a general and unified way to organize and relate information entities, which have been shown to be useful in many applications. Specially, KBs have also been used in recommender systems, called knowledge-aware recommender systems.
    
    To address the need for the linked dataset of RS and KBs, we present the first public linked KB dataset for recommender systems, named KB4Rec v1.0.
    
 ## <div id="Datasets"></div>Datasets
    <!--In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs.-->
-In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Here, we present a screenshot of a file snippet.
+<!--In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets.-->
+In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Here, we present a sample snippet of our linkage results for MovieLens 20M, in which we pair a MovieLens item ID with a Freebase entity ID.
+
+Here, we present a screenshot of a file snippet.
 ```   
 movie_25991	m.09pglcq
 movie_25993	m.0cjwhb
@@ -88,7 +91,7 @@ Thre are some papers which use our dataset, you can refer to them. If your paper
    You can cite this dataset as below.
 
 ```
-@inproceedings{DBLP:conf/sigir/HuangZDWC18,
+@inproceedings{huang-SIGIR-2018,
   author    = {Jin Huang and
                Wayne Xin Zhao and
                Hong{-}Jian Dou and
@@ -100,13 +103,10 @@ Thre are some papers which use our dataset, you can refer to them. If your paper
                USA, July 08-12, 2018}
   pages     = {505--514}
   year      = {2018},
-  crossref  = {DBLP:conf/sigir/2018},
   url       = {http://doi.acm.org/10.1145/3209978.3210017},
   doi       = {10.1145/3209978.3210017},
-  timestamp = {Mon, 02 Jul 2018 08:24:13 +0200},
-  biburl    = {https://dblp.org/rec/bib/conf/sigir/HuangZDWC18},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 ```
 We also strongly recommend you to cite the [original papers](https://arxiv.org/abs/1807.11141) that share the copies of recommender system datasets and knowledge bases. You can find the related references in our paper. 
 
