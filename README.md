@@ -54,7 +54,7 @@ For obtaining the dataset, please read the following instructions:
 
 (1) Send the data request to the email address RUCKB4Rec@gmail.com, and cc Wayne Xin Zhao via batmanfly@gmail.com .
 
-(2) The request email should be entitled “For the copy of KB4Rec v1.0”
+(2) The request email should be entitled “For the copy of KB4Rec v1.0”.
 
 (3) If you are a student, please clearly state your name and university. Please include the name and affiliation of your supervisor in the email, and must cc your supervisor.
 
@@ -105,6 +105,18 @@ Thre are some papers which use our dataset, you can refer to them. If your paper
   year      = {2018},
   url       = {http://doi.acm.org/10.1145/3209978.3210017},
   doi       = {10.1145/3209978.3210017},
+}
+
+@inproceedings{huang-SIGIR-2018,
+  author    = {Wayne Xin Zhao and
+               Gaole He and
+               Hong{-}Jian Dou and
+               Jin Huang and 
+               Siqi Ouyang and
+               Ji{-}Rong Wen and},
+  title     = {KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems},
+  year      = {2018},
+  eprint = {arXiv:\embh{cond-mat}/1807.11141},
 }
 
 ```
