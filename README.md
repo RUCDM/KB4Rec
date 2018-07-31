@@ -27,6 +27,7 @@ movie_25993	m.0cjwhb
 movie_25994	m.0k443
 movie_25995	m.0b7kj8
 ```
+
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
 Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
