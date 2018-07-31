@@ -107,7 +107,7 @@ Thre are some papers which use our dataset, you can refer to them. If your paper
   doi       = {10.1145/3209978.3210017},
 }
 
-@inproceedings{huang-SIGIR-2018,
+@inproceedings{Zhao-arxiv-2018,
   author    = {Wayne Xin Zhao and
                Gaole He and
                Hong{-}Jian Dou and
