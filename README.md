@@ -121,7 +121,7 @@ I have read this license, and accept it.
 }
 
 ```
-We also strongly recommend you to cite the original papers that share the copies of recommender system datasets[1,2,3] and knowledge bases[4]. You can find the related references in our paper. 
+We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [1,2,3] and knowledge bases [4]. You can find the related references in our paper. 
 
 ## <div id="Addition"></div>Additional Notes
 * The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
