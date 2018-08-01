@@ -23,10 +23,10 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
 In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Here, we present a sample snippet of our linkage results for MovieLens 20M, in which we pair a MovieLens item ID with a Freebase entity ID.
 
 ```   
-                                           movie_25991	m.09pglcq
-                                           movie_25993	m.0cjwhb
-                                           movie_25994	m.0k443
-                                           movie_25995	m.0b7kj8
+                                           25991	m.09pglcq
+                                           25993	m.0cjwhb
+                                           25994	m.0k443
+                                           25995	m.0b7kj8
 ```
 
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
