@@ -77,7 +77,7 @@ I have read this license, and accept it.
 ```
 
 ## <div id="Papers"></div>Papers Related
-[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. Arxiv 1807.11141. [paper](https://arxiv.org/abs/1807.11141)
+<strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. Arxiv 1807.11141. [paper](https://arxiv.org/abs/1807.11141)</strong>
 
 [2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 
