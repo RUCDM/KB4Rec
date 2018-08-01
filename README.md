@@ -32,7 +32,7 @@ In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs,
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
 Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
-   We consider three popular RS datasets for linkage, namely MovieLens 20M [3], LFM-1b [4] and Amazon book [5], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [6]. For more details of our linkage, please refer to [our dataset paper](https://arxiv.org/abs/1807.11141).
+   We consider three popular RS datasets for linkage, namely MovieLens 20M [3], LFM-1b [4] and Amazon book [5], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [6]. For more details of our linkage, please refer to [our dataset paper](https://arxiv.org/abs/1807.11141) [1].
    
    We present the statistics of the linked dataset in the following table:
    
