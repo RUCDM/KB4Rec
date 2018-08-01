@@ -1,6 +1,6 @@
 # KB4Rec
 <!--This project is a description for dataset KB4Rec, a knowledge-aware recommder linkage dataset.-->
-We released a linked dataset for research on knowledge-aware recommender systems: KB4Rec v1.0. It aims to associate items from recommender systems with entities from Freebase. 
+We released a linked dataset for research on knowledge-aware recommender systems: KB4Rec v1.0 [1]. It aims to associate items from recommender systems with entities from Freebase. 
 ## Directory
 * [Motivations](#Motivations)
 * [Datasets](#Datasets)
@@ -15,7 +15,7 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
    
    Recently, more and more efforts have been made by both research and industry communities for structurizing world knowledge or domain facts in a variety of data domains. One of the most typical organization forms is knowledge base (KB), also called knowledge graph. KBs provide a general and unified way to organize and relate information entities, which have been shown to be useful in many applications. Specially, KBs have also been used in recommender systems, called knowledge-aware recommender systems.
    
-   To address the need for the linked dataset of RS and KBs, we present the first public linked KB dataset for recommender systems, named KB4Rec v1.0 [1]. This dataset is first used in《Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks》[2].
+   To address the need for the linked dataset of RS and KBs, we present the first public linked KB dataset for recommender systems, named KB4Rec v1.0. This dataset is first used in《Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks》[2].
    
 ## <div id="Datasets"></div>Datasets
    <!--In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs.-->
