@@ -36,7 +36,7 @@ Once such a linkage has been accomplished, it is able to reuse existing large-sc
    
    We present the statistics of the linked dataset in the following table:
    
-   ![detail statistics](table.png)
+   ![detail statistics](table_new.png)
 <!--
 ### Linkage Detail Statistics：
 | Dataset                 | Items      |    Linked-Items    |  Linkage-ratio   | 
