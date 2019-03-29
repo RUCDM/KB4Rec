@@ -88,9 +88,9 @@ The freebase subgraph is all triples related to current seed entity set. You can
 
 (2) With the 1step subgraph extracted, we update the seed entity set to all entities appeared in 1step subgraph. (We only keep entities under freebase domain)
 
-(3) With new entity set, similar to (1), we can get 2 step subgraph. This subgraph is of rich semantics and fit for research purposes.
+(3) With new entity set, similar to (1), we can get 2step subgraph. This subgraph is of rich semantics and fit for research purposes.
 
-This process is simple and reproducible. For easy usage, we also provide the subgraph extrated with above process. You can download it [here](https://github.com/RUCDM/KB4Rec/To_appear).
+This process is simple and reproducible. For easy usage, we provide the 1step subgraph extrated with above process and all entities in 1step subgraphs. You can download it [here](https://github.com/RUCDM/KB4Rec/To_appear). You can get 2step subgraph with code and instruction in /expansion/2step/. All code is provided in this repo. 
 
 ## <div id="References"></div>References
    If you use our linkage or subgraph, please kindly cite our papers.
