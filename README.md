@@ -6,8 +6,8 @@ We released a linked dataset for research on knowledge-aware recommender systems
 * [Datasets](#Datasets)
 * [DownLoad and Usage](#Download)
 * [How to get Freebase subgraph with our linkage](#Usage)
-* [Related Papers](#Papers)
 * [References](#References)
+* [Related Papers](#Papers)
 * [Additional Notes](#Addition)
 
 ## <div id="Motivations"></div>Motivations
@@ -92,23 +92,8 @@ The freebase subgraph is all triples related to current seed entity set. You can
 
 This process is simple and reproducible. For easy usage, we also provide the subgraph extrated with above process. You can download it [here](https://github.com/RUCDM/KB4Rec/To_appear).
 
-## <div id="Papers"></div>Related Papers
-<strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. Arxiv 1807.11141. [paper](https://arxiv.org/abs/1807.11141)</strong>
-
-<strong>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
-
-[3] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016).
-
-[4] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110.
-
-[5] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517.
-
-[6] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
-
-<!--
-* Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
--->
 ## <div id="References"></div>References
+   If you use our linkage or subgraph, please kindly cite our papers.
    You can cite this dataset as below.
 
 ```
@@ -142,6 +127,23 @@ This process is simple and reproducible. For easy usage, we also provide the sub
 
 ```
 We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [3,4,5] and knowledge bases [6]. You can find the related references in our paper. 
+
+## <div id="Papers"></div>Related Papers
+<strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. Arxiv 1807.11141. [paper](https://arxiv.org/abs/1807.11141)</strong>
+
+<strong>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
+
+[3] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016).
+
+[4] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110.
+
+[5] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517.
+
+[6] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
+
+<!--
+* Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
+-->
 
 ## <div id="Addition"></div>Additional Notes
 * The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
