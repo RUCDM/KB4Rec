@@ -5,6 +5,7 @@ We released a linked dataset for research on knowledge-aware recommender systems
 * [Motivations](#Motivations)
 * [Datasets](#Datasets)
 * [DownLoad and Usage](#Download)
+* [How to get Freebase subgraph with our linkage](#Usage)
 * [Related Papers](#Papers)
 * [References](#References)
 * [Additional Notes](#Addition)
@@ -75,6 +76,19 @@ This dataset is made freely available to academic and non-academic entities for 
 
 I have read this license, and accept it.
 ```
+
+## <div id="Usage"></div>How to get Freebase subgraph with our linkage
+With KB4Rec linkage and freebase dump, you can extract subgraph now. For the dump of freebase, you can download it from [freebase](https://developers.google.com/freebase/) (We use the latest version of this page).
+
+The freebase subgraph is all triples related to current seed entity set. You can get freebase subgraph which 
+
+(1) At first, the seed entity set only contain entities in our linkage. All triples which contain at least one entity in our linkage are called 1step subgraph.
+
+(2) With the 1step subgraph extracted, we update the seed entity set to all entities appeared in 1step subgraph. (We only keep entities under freebase domain)
+
+(3) With new entity set, similar to (1), we can get 2 step subgraph. This subgraph is of rich semantics and fit for research purposes.
+
+This process is simple and reproducible. For easy usage, we also provide the subgraph extrated with above process. You can download it [here](https://github.com/RUCDM/KB4Rec/To_appear).
 
 ## <div id="Papers"></div>Related Papers
 <strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. Arxiv 1807.11141. [paper](https://arxiv.org/abs/1807.11141)</strong>
