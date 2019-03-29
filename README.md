@@ -79,6 +79,8 @@ I have read this license, and accept it.
 
 ## <div id="Usage"></div>How to get Freebase subgraph with our linkage
 With KB4Rec linkage and freebase dump, you can extract subgraph now. For the dump of freebase, you can download it from [freebase](https://developers.google.com/freebase/) (We use the latest version of this page).
+![freebase dump](dump.jpg)
+
 
 The freebase subgraph is all triples related to current seed entity set. You can get freebase subgraph which 
 
