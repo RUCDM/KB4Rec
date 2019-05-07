@@ -6,6 +6,7 @@ We released a linked dataset for research on knowledge-aware recommender systems
 * [Datasets](#Datasets)
 * [DownLoad and Usage](#Download)
 * [How to get Freebase subgraph with our linkage](#Usage)
+* [Access to subgraph](#Access)
 * [References](#References)
 * [Related Papers](#Papers)
 * [Additional Notes](#Addition)
@@ -90,7 +91,10 @@ The freebase subgraph is all triples related to current seed entity set. You can
 
 (3) With new entity set, similar to (1), we can get 2step subgraph. This subgraph is of rich semantics and fit for research purposes.
 
-This process is simple and reproducible. For easy usage, we provide the 1step subgraph extrated with above process and all entities in 1step subgraphs. You can download it [here](https://drive.google.com/open?id=1mkTVPRizvbzq-9SpCFurDBDaPGdgvkda). You can get 2step subgraph with code and instruction in /expansion/2step/. All code is provided in this repo. 
+This process is simple and reproducible.
+
+## <div id="Access"></div>Access to Subgraph
+For easy usage, we provide the 1step subgraph extrated with above process and all entities in 1step subgraphs. You can download it [here](https://drive.google.com/open?id=1mkTVPRizvbzq-9SpCFurDBDaPGdgvkda). You can get 2step subgraph with code and instruction in /expansion/2step/. All code is provided in this repo. 
 
 ## <div id="References"></div>References
    If you use our linkage or subgraph, please kindly cite our papers.
