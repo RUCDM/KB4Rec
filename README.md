@@ -141,4 +141,5 @@ We also strongly recommend you to cite the original papers that share the copies
 ## <div id="Addition"></div>Additional Notes
 * The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
 * If you have any questions or suggestions with this dataset, please kindly let us know. Our goal is to make the dataset reliable and useful for the community.
+*For contact, send email to RUCKB4Rec@gmail.com, and cc Wayne Xin Zhao via batmanfly@gmail.com .
 =======
