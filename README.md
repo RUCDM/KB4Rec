@@ -56,6 +56,7 @@ Once such a linkage has been accomplished, it is able to reuse existing large-sc
 By using the datasets, you must agree to be bound by the terms of the following [license](#References).
 
 Our linkage dataset is provided in [Linkage](https://github.com/RichardHGL/KB4Rec/tree/master/Linkage) folder of this repo.
+For easy usage, we provide the 1step subgraph extrated with following process and all entities in 1step subgraphs. You can download it [here](https://drive.google.com/open?id=1mkTVPRizvbzq-9SpCFurDBDaPGdgvkda). You can get 2step subgraph with code and instruction in /expansion/2step/. All code is provided in this repo.
 
 ## <div id="Usage"></div>How to get Freebase subgraph with our linkage
 With KB4Rec linkage and freebase dump, you can extract subgraph now. For the dump of freebase, you can download it from [freebase](https://developers.google.com/freebase/) (We use the latest version of this page).
@@ -75,7 +76,7 @@ This process is simple and reproducible.
 ## <div id="Access"></div>Access to Subgraph
 For easy usage, we provide the 1step subgraph extrated with above process and all entities in 1step subgraphs. You can download it [here](https://drive.google.com/open?id=1mkTVPRizvbzq-9SpCFurDBDaPGdgvkda). You can get 2step subgraph with code and instruction in /expansion/2step/. All code is provided in this repo. 
 
-## <div id="Licence and References"></div>References
+## <div id="References"></div>Licence and References
 
 By using the datasets, you must agree to be bound by the terms of the following license.
 
