@@ -1,4 +1,5 @@
 # KB4Rec
+
 <!--This project is a description for dataset KB4Rec, a knowledge-aware recommder linkage dataset.-->
 We released a linked dataset for research on knowledge-aware recommender systems: KB4Rec v1.0 [1]. It aims to associate items from recommender systems with entities from Freebase. 
 ## Directory
@@ -152,3 +153,4 @@ We also strongly recommend you to cite the original papers that share the copies
 ## <div id="Addition"></div>Additional Notes
 * The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
 * If you have any questions or suggestions with this dataset, please kindly let us know. Our goal is to make the dataset reliable and useful for the community.
+=======
