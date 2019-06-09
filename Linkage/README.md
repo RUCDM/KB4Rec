@@ -1,21 +1,26 @@
+## Description
 We have three separate files for the three different domains. The three files are:
 
-(1) ml2fb.txt: MovieLens 20M to Freebase;
+* ml2fb.txt: MovieLens 20M to Freebase;
 
-(2) lfb2fb.txt:  LFM-1b to Freebase;
+* lfb2fb.txt:  LFM-1b to Freebase;
 
-(3) ab2fb.txt:  Amazon book to Freebase;
+* ab2fb.txt:  Amazon book to Freebase;
 
-Each file takes the following data format by lines:
+In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Here, we present a sample snippet of our linkage results for MovieLens 20M, in which we pair a MovieLens item ID with a Freebase entity ID.
 
-RS_item_ID[\tab]FB_item_ID
+```   
+                                           25991	m.09pglcq
+                                           25993	m.0cjwhb
+                                           25994	m.0k443
+                                           25995	m.0b7kj8
+```
 
-where a RS_item_ID denotes an item ID from a recommender system dataset, while a FB_item_ID denotes an entity ID from Freebase.
-
+## References
 Please cite our papers if you have used the datasets in research. 
 
 You can cite this dataset as below.
-
+```
 @inproceedings{huang-SIGIR-2018,
   author    = {Jin Huang and
                Wayne Xin Zhao and
@@ -43,3 +48,4 @@ You can cite this dataset as below.
   year      = {2018},
   eprint = {arXiv:\embh{cond-mat}/1807.11141},
 }
+```
