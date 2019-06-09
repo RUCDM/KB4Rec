@@ -65,7 +65,7 @@ This dataset is made freely available to academic and non-academic entities for 
 5. That all rights not expressly granted to you are reserved by us (Wayne Xin Zhao, School of Information, Renmin University of China).
 
 ```
-Our linkage dataset is provided in [Linkage](https://github.com/RichardHGL/KB4Rec/Linkage) folder of this repo.
+Our linkage dataset is provided in [Linkage](https://github.com/RichardHGL/KB4Rec/tree/master/Linkage) folder of this repo.
 
 ## <div id="Usage"></div>How to get Freebase subgraph with our linkage
 With KB4Rec linkage and freebase dump, you can extract subgraph now. For the dump of freebase, you can download it from [freebase](https://developers.google.com/freebase/) (We use the latest version of this page).
