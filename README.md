@@ -53,21 +53,9 @@ Once such a linkage has been accomplished, it is able to reuse existing large-sc
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
 -->
 ## <div id="Download"></div>DownLoad and Usage
-<!--To use the datasets, you must read and accept the online agreement.By using the datasets, you agree to be bound by the terms of its license. Send email to RUCKB4Rec@gmail.com. The email should contain following contents:--> 
-For obtaining the dataset, please read the following instructions:
-
-(1) Send the data request to the email address RUCKB4Rec@gmail.com, and cc Wayne Xin Zhao via batmanfly@gmail.com .
-
-(2) The request email should be entitled “For the copy of KB4Rec v1.0”.
-
-(3) If you are a student, please clearly state your name and university. Please include the name and affiliation of your supervisor in the email, and must cc your supervisor.
-
-(4) You must copy the following statement into your email.
-
-
+By using the datasets, you must agree to be bound by the terms of the following license.
 
 ```
-By using the datasets, I agree to be bound by the terms of the following license.
 License agreement
 This dataset is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation. Permission is granted to use the data given that you agree:
 1. That the dataset comes “AS IS”, without express or implied warranty. Although every effort has been made to ensure accuracy, we do not accept any responsibility for errors or omissions. 
@@ -76,8 +64,8 @@ This dataset is made freely available to academic and non-academic entities for 
 4. That you may not use the dataset or any derivative work for commercial purposes as, for example, licensing or selling the data, or using the data with a purpose to procure a commercial gain.
 5. That all rights not expressly granted to you are reserved by us (Wayne Xin Zhao, School of Information, Renmin University of China).
 
-I have read this license, and accept it.
 ```
+Our linkage dataset is provided in [Linkage](https://github.com/RichardHGL/KB4Rec/Linkage) folder of this repo.
 
 ## <div id="Usage"></div>How to get Freebase subgraph with our linkage
 With KB4Rec linkage and freebase dump, you can extract subgraph now. For the dump of freebase, you can download it from [freebase](https://developers.google.com/freebase/) (We use the latest version of this page).
