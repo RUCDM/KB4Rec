@@ -7,7 +7,8 @@ We released a linked dataset for research on knowledge-aware recommender systems
 * [Datasets](#Datasets)
 * [DownLoad and Usage](#Download)
 * [How to get Freebase subgraph with our linkage](#Usage)
-* [Licence & References](#References)
+* [Licence](#Licence)
+* [References](#References)
 * [Related Papers](#Papers)
 * [Additional Notes](#Addition)
 
@@ -52,7 +53,7 @@ Once such a linkage has been accomplished, it is able to reuse existing large-sc
 * [SVDfeature](http://apex.sjtu.edu.cn/projects/33)
 -->
 ## <div id="Download"></div>DownLoad and Usage
-### By using the datasets, you must agree to be bound by the terms of the following [license](#References).
+### By using the datasets, you must agree to be bound by the terms of the following [license](#Licence).
 
 * Our linkage dataset is provided in [Linkage](https://github.com/RUCDM/KB4Rec/tree/master/Linkage) folder of this repo.
 * For easy usage, we provide the 1step subgraph extrated with following process and all entities in 1step subgraphs. You can download it [here](https://drive.google.com/open?id=1mkTVPRizvbzq-9SpCFurDBDaPGdgvkda).
@@ -73,7 +74,7 @@ The freebase subgraph is all triples related to current seed entity set. You can
 
 This process is simple and reproducible.
 
-## <div id="References"></div>Licence and References
+## <div id="Licence"></div>Licence
 
 By using the datasets, you must agree to be bound by the terms of the following license.
 
@@ -87,7 +88,9 @@ This dataset is made freely available to academic and non-academic entities for 
 5. That all rights not expressly granted to you are reserved by us (Wayne Xin Zhao, School of Information, Renmin University of China).
 ```
 
+## <div id="References"></div>References
 If you use our linkage or subgraph, please kindly cite our papers.
+
 You can cite this dataset as below.
 
 ```
