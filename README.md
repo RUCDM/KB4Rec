@@ -35,7 +35,7 @@ In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs,
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
 Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
-   We consider three popular RS datasets for linkage, namely MovieLens 20M [3], LFM-1b [4] and Amazon book [5], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [6]. For more details of our linkage, please refer to [our dataset paper](http://www.data-intelligence-journal.org/p/16/) [1].
+   We consider three popular RS datasets for linkage, namely MovieLens 20M [3], LFM-1b [4] and Amazon book [5], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [6]. For more details of our linkage, please refer to [our dataset paper](https://doi.org/10.1162/dint_a_00008) [1].
    
    We present the statistics of the linked dataset in the following table:
    
@@ -109,23 +109,29 @@ You can cite this dataset as below.
   doi       = {10.1145/3209978.3210017},
 }
 
-@inproceedings{Zhao-arxiv-2018,
-  author    = {Wayne Xin Zhao and
+@article{doi:10.1162/dint\_a\_00008,
+   author = {Wayne Xin Zhao and
                Gaole He and
+               Kunlin Yang and
                Hong{-}Jian Dou and
                Jin Huang and 
                Siqi Ouyang and
-               Ji{-}Rong Wen and},
-  title     = {KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems},
-  year      = {2018},
-  eprint = {http://www.data-intelligence-journal.org/p/16/},
-}
+               Ji{-}Rong Wen},
+   title = {KB4Rec: A Data Set for Linking Knowledge Bases with Recommender Systems},
+   journal = {Data Intelligence},
+   volume = {1},
+   number = {2},
+   pages = {121-136},
+   year = {2019},
+   doi = {10.1162/dint\_a\_00008},
 
+   URL = {https://doi.org/10.1162/dint_a_00008},
+}
 ```
 We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [3,4,5] and knowledge bases [6]. You can find the related references in our paper. 
 
 ## <div id="Papers"></div>Related Papers
-<strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](http://www.data-intelligence-journal.org/p/16/)</strong>
+<strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
 
 <strong>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
 
