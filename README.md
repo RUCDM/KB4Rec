@@ -93,23 +93,7 @@ If you use our linkage or subgraph, please kindly cite our papers.
 You can cite this dataset as below.
 
 ```
-@inproceedings{huang-SIGIR-2018,
-  author    = {Jin Huang and
-               Wayne Xin Zhao and
-               Hong{-}Jian Dou and
-               Ji{-}Rong Wen and
-               Edward Y. Chang},
-  title     = {Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks}
-  booktitle = {The 41st International {ACM} {SIGIR} Conference on Research {\&}
-               Development in Information Retrieval, {SIGIR} 2018, Ann Arbor, MI,
-               USA, July 08-12, 2018}
-  pages     = {505--514}
-  year      = {2018},
-  url       = {http://doi.acm.org/10.1145/3209978.3210017},
-  doi       = {10.1145/3209978.3210017},
-}
-
-@article{doi:10.1162/dint\_a\_00008,
+@article{Zhao-DI-2019,
    author = {Wayne Xin Zhao and
                Gaole He and
                Kunlin Yang and
@@ -127,6 +111,44 @@ You can cite this dataset as below.
 
    URL = {https://doi.org/10.1162/dint_a_00008},
 }
+
+@inproceedings{huang-SIGIR-2018,
+  author    = {Jin Huang and
+               Wayne Xin Zhao and
+               Hong{-}Jian Dou and
+               Ji{-}Rong Wen and
+               Edward Y. Chang},
+  title     = {Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks}
+  booktitle = {The 41st International {ACM} {SIGIR} Conference on Research {\&}
+               Development in Information Retrieval, {SIGIR} 2018, Ann Arbor, MI,
+               USA, July 08-12, 2018}
+  pages     = {505--514}
+  year      = {2018},
+  url       = {http://doi.acm.org/10.1145/3209978.3210017},
+  doi       = {10.1145/3209978.3210017},
+}
+
+@inproceedings{DBLP:conf/pakdd/ZhaoDZDW19,
+  author    = {Wayne Xin Zhao and
+               Hong{-}Jian Dou and
+               Yuanpei Zhao and
+               Daxiang Dong and
+               Ji{-}Rong Wen},
+  title     = {Neural Network Based Popularity Prediction by Linking Online Content
+               with Knowledge Bases},
+  booktitle = {Advances in Knowledge Discovery and Data Mining - 23rd Pacific-Asia
+               Conference, {PAKDD} 2019, Macau, China, April 14-17, 2019, Proceedings,
+               Part {II}},
+  pages     = {16--28},
+  year      = {2019},
+  crossref  = {DBLP:conf/pakdd/2019-2},
+  url       = {https://doi.org/10.1007/978-3-030-16145-3\_2},
+  doi       = {10.1007/978-3-030-16145-3\_2},
+  timestamp = {Tue, 14 May 2019 10:00:51 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/pakdd/ZhaoDZDW19},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
 ```
 We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [3,4,5] and knowledge bases [6]. You can find the related references in our paper. 
 
