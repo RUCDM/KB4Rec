@@ -128,7 +128,7 @@ You can cite this dataset as below.
   doi       = {10.1145/3209978.3210017},
 }
 
-@inproceedings{DBLP:conf/pakdd/ZhaoDZDW19,
+@inproceedings{Zhao-PAKDD-2019,
   author    = {Wayne Xin Zhao and
                Hong{-}Jian Dou and
                Yuanpei Zhao and
@@ -144,9 +144,6 @@ You can cite this dataset as below.
   crossref  = {DBLP:conf/pakdd/2019-2},
   url       = {https://doi.org/10.1007/978-3-030-16145-3\_2},
   doi       = {10.1007/978-3-030-16145-3\_2},
-  timestamp = {Tue, 14 May 2019 10:00:51 +0200},
-  biburl    = {https://dblp.org/rec/bib/conf/pakdd/ZhaoDZDW19},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
 ```
@@ -155,15 +152,17 @@ We also strongly recommend you to cite the original papers that share the copies
 ## <div id="Papers"></div>Related Papers
 <strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
 
-<strong>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
+<strong>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Neural Network Based Popularity Prediction by Linking Online Content with Knowledge Bases. PAKDD (2) 2019: 16-28. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
 
-[3] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016).
+<strong>[3] Wayne Xin Zhao, Hong{-}Jian Dou, Yuanpei Zhao, Daxiang Dong and Ji{-}Rong Wen : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://doi.org/10.1007/978-3-030-16145-3_2)</strong>
 
-[4] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110.
+[4] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016).
 
-[5] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517.
+[5] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110.
 
-[6] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
+[6] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517.
+
+[7] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
 
 <!--
 * Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
