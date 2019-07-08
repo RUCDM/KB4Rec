@@ -35,7 +35,7 @@ In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs,
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
 Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
-   We consider three popular RS datasets for linkage, namely MovieLens 20M [3], LFM-1b [4] and Amazon book [5], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [6]. For more details of our linkage, please refer to [our dataset paper](https://doi.org/10.1162/dint_a_00008) [1].
+   We consider three popular RS datasets for linkage, namely MovieLens 20M [4], LFM-1b [5] and Amazon book [6], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [7]. For more details of our linkage, please refer to [our dataset paper](https://doi.org/10.1162/dint_a_00008) [1].
    
    We present the statistics of the linked dataset in the following table:
    
@@ -147,7 +147,7 @@ You can cite this dataset as below.
 }
 
 ```
-We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [3,4,5] and knowledge bases [6]. You can find the related references in our paper. 
+We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [4,5,6] and knowledge bases [6]. You can find the related references in our paper. 
 
 ## <div id="Papers"></div>Related Papers
 <strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
