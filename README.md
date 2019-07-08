@@ -152,9 +152,9 @@ We also strongly recommend you to cite the original papers that share the copies
 ## <div id="Papers"></div>Related Papers
 <strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
 
-<strong>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Neural Network Based Popularity Prediction by Linking Online Content with Knowledge Bases. PAKDD (2) 2019: 16-28. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
+<strong>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
 
-<strong>[3] Wayne Xin Zhao, Hong{-}Jian Dou, Yuanpei Zhao, Daxiang Dong and Ji{-}Rong Wen : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://doi.org/10.1007/978-3-030-16145-3_2)</strong>
+<strong>[3] Wayne Xin Zhao, Hong{-}Jian Dou, Yuanpei Zhao, Daxiang Dong and Ji{-}Rong Wen : Neural Network Based Popularity Prediction by Linking Online Content with Knowledge Bases. PAKDD (2) 2019: 16-28. [paper](https://doi.org/10.1007/978-3-030-16145-3_2)</strong>
 
 [4] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016).
 
