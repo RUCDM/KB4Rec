@@ -35,6 +35,25 @@ Please cite our papers if you have used the datasets in research.
 
 You can cite this dataset as below.
 ```
+@article{Zhao-DI-2019,
+   author = {Wayne Xin Zhao and
+               Gaole He and
+               Kunlin Yang and
+               Hong{-}Jian Dou and
+               Jin Huang and 
+               Siqi Ouyang and
+               Ji{-}Rong Wen},
+   title = {KB4Rec: A Data Set for Linking Knowledge Bases with Recommender Systems},
+   journal = {Data Intelligence},
+   volume = {1},
+   number = {2},
+   pages = {121-136},
+   year = {2019},
+   doi = {10.1162/dint\_a\_00008},
+
+   URL = {https://doi.org/10.1162/dint_a_00008},
+}
+
 @inproceedings{huang-SIGIR-2018,
   author    = {Jin Huang and
                Wayne Xin Zhao and
@@ -51,15 +70,22 @@ You can cite this dataset as below.
   doi       = {10.1145/3209978.3210017},
 }
 
-@inproceedings{Zhao-arxiv-2018,
+@inproceedings{Zhao-PAKDD-2019,
   author    = {Wayne Xin Zhao and
-               Gaole He and
                Hong{-}Jian Dou and
-               Jin Huang and 
-               Siqi Ouyang and
-               Ji{-}Rong Wen and},
-  title     = {KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems},
-  year      = {2018},
-  eprint = {arXiv:\embh{cond-mat}/1807.11141},
+               Yuanpei Zhao and
+               Daxiang Dong and
+               Ji{-}Rong Wen},
+  title     = {Neural Network Based Popularity Prediction by Linking Online Content
+               with Knowledge Bases},
+  booktitle = {Advances in Knowledge Discovery and Data Mining - 23rd Pacific-Asia
+               Conference, {PAKDD} 2019, Macau, China, April 14-17, 2019, Proceedings,
+               Part {II}},
+  pages     = {16--28},
+  year      = {2019},
+  crossref  = {DBLP:conf/pakdd/2019-2},
+  url       = {https://doi.org/10.1007/978-3-030-16145-3\_2},
+  doi       = {10.1007/978-3-030-16145-3\_2},
 }
+
 ```
