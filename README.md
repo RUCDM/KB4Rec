@@ -156,11 +156,11 @@ We also strongly recommend you to cite the original papers that share the copies
 
 <strong>[3] Wayne Xin Zhao, Hong{-}Jian Dou, Yuanpei Zhao, Daxiang Dong and Ji{-}Rong Wen : Neural Network Based Popularity Prediction by Linking Online Content with Knowledge Bases. PAKDD (2) 2019: 16-28. [paper](https://doi.org/10.1007/978-3-030-16145-3_2)</strong>
 
-[4] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016).
+[4] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016). [web](https://grouplens.org/datasets/movielens/)
 
-[5] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110.
+[5] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110. [web](http://www.cp.jku.at/datasets/LFM-1b/)
 
-[6] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517.
+[6] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517. [web](http://jmcauley.ucsd.edu/data/amazon/)
 
 [7] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
 
