@@ -1,7 +1,7 @@
 # KB4Rec
 
 <!--This project is a description for dataset KB4Rec, a knowledge-aware recommder linkage dataset.-->
-We released a linked dataset for research on knowledge-aware recommender systems: KB4Rec v1.0 [1]. It aims to associate items from recommender systems with entities from Freebase. 
+We released a linked dataset for research on knowledge-aware recommender systems: KB4Rec v1.0 [[1]](#Ref-1). It aims to associate items from recommender systems with entities from Freebase. 
 ## Directory
 * [Motivations](#Motivations)
 * [Datasets](#Datasets)
@@ -157,7 +157,7 @@ You can cite this dataset as below.
 We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [5,6,7] and knowledge bases [8]. You can find the related references in our paper. 
 
 ## <div id="Papers"></div>Related Papers
-<strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
+<strong><div id="Ref-1"></div>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
 
 <strong>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
 
