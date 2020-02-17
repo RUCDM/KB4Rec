@@ -154,7 +154,7 @@ You can cite this dataset as below.
 }
 
 ```
-We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [4,5,6] and knowledge bases [6]. You can find the related references in our paper. 
+We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [5,6,7] and knowledge bases [8]. You can find the related references in our paper. 
 
 ## <div id="Papers"></div>Related Papers
 <strong>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
