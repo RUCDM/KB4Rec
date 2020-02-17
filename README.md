@@ -1,7 +1,7 @@
 # KB4Rec
 
 <!--This project is a description for dataset KB4Rec, a knowledge-aware recommder linkage dataset.-->
-We released a linked dataset for research on knowledge-aware recommender systems: KB4Rec v1.0 [[1]](#Ref-1). It aims to associate items from recommender systems with entities from Freebase. 
+We released a linked dataset for research on knowledge-aware recommender systems: KB4Rec v1.0 [[1]](#Ref-DI-2019). It aims to associate items from recommender systems with entities from Freebase. 
 ## Directory
 * [Motivations](#Motivations)
 * [Datasets](#Datasets)
@@ -18,7 +18,7 @@ Nowadays, recommender systems (RS), which aim to match users with interested ite
    
    Recently, more and more efforts have been made by both research and industry communities for structurizing world knowledge or domain facts in a variety of data domains. One of the most typical organization forms is knowledge base (KB), also called knowledge graph. KBs provide a general and unified way to organize and relate information entities, which have been shown to be useful in many applications. Specially, KBs have also been used in recommender systems, called knowledge-aware recommender systems.
    
-   To address the need for the linked dataset of RS and KBs, we present the first public linked KB dataset for recommender systems, named KB4Rec v1.0. This dataset is first used in《Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks》[2].
+   To address the need for the linked dataset of RS and KBs, we present the first public linked KB dataset for recommender systems, named KB4Rec v1.0. This dataset is first used in《Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks》[[2]](#Ref-SIGIR-2018).
    
 ## <div id="Datasets"></div>Datasets
    <!--In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs.-->
@@ -35,7 +35,7 @@ In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs,
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
 Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
-   We consider three popular RS datasets for linkage, namely MovieLens 20M [5], LFM-1b [6] and Amazon book [7], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [8]. For more details of our linkage, please refer to [our dataset paper](https://doi.org/10.1162/dint_a_00008) [1].
+   We consider three popular RS datasets for linkage, namely MovieLens 20M [[5]](#Ref-Movielens), LFM-1b [[6]](#Ref-Lastfm) and Amazon book [[7]](#Ref-AmazonBook), which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [[8]](#Ref-freebase). For more details of our linkage, please refer to [our dataset paper](https://doi.org/10.1162/dint_a_00008) [1].
    
    We present the statistics of the linked dataset in the following table:
    
@@ -157,21 +157,21 @@ You can cite this dataset as below.
 We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [5,6,7] and knowledge bases [8]. You can find the related references in our paper. 
 
 ## <div id="Papers"></div>Related Papers
-<strong><div id="Ref-1"></div>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
+<strong><div id="Ref-DI-2019"></div>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
 
-<strong>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
+<strong><div id="Ref-SIGIR-2018"></div>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
 
-<strong>[3] Wayne Xin Zhao, Hong{-}Jian Dou, Yuanpei Zhao, Daxiang Dong and Ji{-}Rong Wen : Neural Network Based Popularity Prediction by Linking Online Content with Knowledge Bases. PAKDD (2) 2019: 16-28. [paper](https://doi.org/10.1007/978-3-030-16145-3_2)</strong>
+<strong><div id="Ref-PAKDD-2019"></div>[3] Wayne Xin Zhao, Hong{-}Jian Dou, Yuanpei Zhao, Daxiang Dong and Ji{-}Rong Wen : Neural Network Based Popularity Prediction by Linking Online Content with Knowledge Bases. PAKDD (2) 2019: 16-28. [paper](https://doi.org/10.1007/978-3-030-16145-3_2)</strong>
 
-<strong>[4] Gaole He, Junyi Li, Wayne Xin Zhao, Peiju Liuand Ji{-}Rong Wen : Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning. WWW 2020. </strong>
+<strong><div id="Ref-WWW-2019"></div>[4] Gaole He, Junyi Li, Wayne Xin Zhao, Peiju Liuand Ji{-}Rong Wen : Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning. WWW 2020. </strong>
 
-[5] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016). [web](https://grouplens.org/datasets/movielens/)
+<div id="Ref-Movielens"></div>[5] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016). [web](https://grouplens.org/datasets/movielens/)
 
-[6] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110. [web](http://www.cp.jku.at/datasets/LFM-1b/)
+<div id="Ref-Lastfm"></div>[6] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110. [web](http://www.cp.jku.at/datasets/LFM-1b/)
 
-[7] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517. [web](http://jmcauley.ucsd.edu/data/amazon/)
+<div id="Ref-AmazonBook"></div>[7] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517. [web](http://jmcauley.ucsd.edu/data/amazon/)
 
-[8] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
+<div id="Ref-freebase"></div>[8] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
 
 <!--
 * Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
