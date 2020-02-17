@@ -35,7 +35,7 @@ In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs,
 <!--For example, the movie of <Avatar> from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.-->
 Once such a linkage has been accomplished, it is able to reuse existing large-scale KB data for RSs. For example, the movie of from MovieLens dataset has a corresponding entity entry in Freebase, and we are able to obtain its attribute information by reading out all its associated relation triples in KBs.
 
-   We consider three popular RS datasets for linkage, namely MovieLens 20M [4], LFM-1b [5] and Amazon book [6], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [7]. For more details of our linkage, please refer to [our dataset paper](https://doi.org/10.1162/dint_a_00008) [1].
+   We consider three popular RS datasets for linkage, namely MovieLens 20M [5], LFM-1b [6] and Amazon book [7], which covers the three domains of movie, music and book respectively. For KB, we adopt the large-scale pubic KB Freebase [8]. For more details of our linkage, please refer to [our dataset paper](https://doi.org/10.1162/dint_a_00008) [1].
    
    We present the statistics of the linked dataset in the following table:
    
@@ -146,6 +146,13 @@ You can cite this dataset as below.
   doi       = {10.1007/978-3-030-16145-3\_2},
 }
 
+@inproceedings{He-WWW-2020,
+  title={Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning},
+  author={Gaole He, Junyi Li, Wayne Xin Zhao, Peiju Liuand Ji{-}Rong Wen},
+  booktitle={Proceedings of The Web Conference},
+  year={2020},
+}
+
 ```
 We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [4,5,6] and knowledge bases [6]. You can find the related references in our paper. 
 
@@ -156,13 +163,15 @@ We also strongly recommend you to cite the original papers that share the copies
 
 <strong>[3] Wayne Xin Zhao, Hong{-}Jian Dou, Yuanpei Zhao, Daxiang Dong and Ji{-}Rong Wen : Neural Network Based Popularity Prediction by Linking Online Content with Knowledge Bases. PAKDD (2) 2019: 16-28. [paper](https://doi.org/10.1007/978-3-030-16145-3_2)</strong>
 
-[4] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016). [web](https://grouplens.org/datasets/movielens/)
+<strong>[4] Gaole He, Junyi Li, Wayne Xin Zhao, Peiju Liuand Ji{-}Rong Wen : Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning. WWW 2020. </strong>
 
-[5] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110. [web](http://www.cp.jku.at/datasets/LFM-1b/)
+[5] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016). [web](https://grouplens.org/datasets/movielens/)
 
-[6] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517. [web](http://jmcauley.ucsd.edu/data/amazon/)
+[6] Markus Schedl : The LFM-1b Dataset for Music Retrieval and Recommendation. ICMR 2016: 103-110. [web](http://www.cp.jku.at/datasets/LFM-1b/)
 
-[7] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
+[7] Ruining He, Julian McAuley : Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering. WWW 2016: 507-517. [web](http://jmcauley.ucsd.edu/data/amazon/)
+
+[8] Google : 2016. Freebase Data Dumps. https://developers.google.com/freebase/data.
 
 <!--
 * Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
