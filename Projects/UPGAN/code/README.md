@@ -64,4 +64,4 @@ Any scientific publications that use our codes and datasets should cite the foll
   year      = {2020}
 }
 ```
-You can also wathc code on [KB4Rec](https://github.com/RUCDM/KB4Rec/tree/master/Projects/UPGAN).
+You can also find code on [UPGAN](https://github.com/RichardHGL/UPGAN).
