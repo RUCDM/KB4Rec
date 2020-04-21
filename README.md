@@ -163,7 +163,7 @@ We also strongly recommend you to cite the original papers that share the copies
 
 <strong><div id="Ref-PAKDD-2019"></div>[3] Wayne Xin Zhao, Hong{-}Jian Dou, Yuanpei Zhao, Daxiang Dong and Ji{-}Rong Wen : Neural Network Based Popularity Prediction by Linking Online Content with Knowledge Bases. PAKDD (2) 2019: 16-28. [paper](https://doi.org/10.1007/978-3-030-16145-3_2)</strong>
 
-<strong><div id="Ref-WWW-2019"></div>[4] Gaole He, Junyi Li, Wayne Xin Zhao, Peiju Liuand Ji{-}Rong Wen : Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning. WWW 2020. </strong>
+<strong><div id="Ref-WWW-2019"></div>[4] Gaole He, Junyi Li, Wayne Xin Zhao, Peiju Liuand Ji{-}Rong Wen : Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning. WWW 2020. [paper](https://arxiv.org/abs/2003.12718) [code](https://github.com/RUCAIBox/UPGAN)</strong>
 
 <div id="Ref-Movielens"></div>[5] F. Maxwell Harper, Joseph A. Konstan : The MovieLens Datasets: History and Context. TiiS 5(4): 19:1-19:19 (2016). [web](https://grouplens.org/datasets/movielens/)
 
