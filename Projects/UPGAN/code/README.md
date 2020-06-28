@@ -2,7 +2,7 @@
 
 This is our Pytorch implementation for the paper:
 
-> Gaole He, Junyi Li, Wayne Xin Zhao, Peiju Liu and Ji-Rong Wen (2020). Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning. [Paper in arXiv](https://arxiv.org/abs/2003.12718). In WWW'2020, Taipei, Taiwan, China, April 20–24, 2020.
+> Gaole He, Junyi Li, Wayne Xin Zhao, Peiju Liu and Ji-Rong Wen (2020). Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning. [paper](https://arxiv.org/abs/2003.12718), [video](https://www.youtube.com/watch?v=SABAIvhhMm0&list=PLJNwhMK_V7EyZCUt6SjW4JthoM9-QiHMZ&index=43), [slides](https://github.com/RichardHGL/UPGAN/blob/master/www_slides.pptx). In WWW'2020, Taipei, Taiwan, China, April 20–24, 2020.
 
 <div  align="center">    
 <img src="model.Jpeg" width = "50%" height = "50%"/>
@@ -45,9 +45,14 @@ Each dataset is organized with following structure:
     - `test.dat`: mapped triples of test set.
     
 ## Training Instruction
+Download preprocessed datasets from [google drive](https://drive.google.com/file/d/1CV-LyvqWA-_hkj4DvUoY48FhknhrDKMl/view?usp=sharing),
+and unzip it into data/ folder
+use following args to run the code
 
 ```
-sh run_book.sh
+--data_folder data/ 
+--dataset AmazonBook/ LastFM/ Movielens
+example commands: run_book.sh
 ```
 
 ## Acknowledgement
@@ -63,5 +68,28 @@ Any scientific publications that use our codes and datasets should cite the foll
   booktitle = {{WWW}},
   year      = {2020}
 }
+
+@article{Zhao-DI-2019,
+   author = {Wayne Xin Zhao and
+               Gaole He and
+               Kunlin Yang and
+               Hong{-}Jian Dou and
+               Jin Huang and 
+               Siqi Ouyang and
+               Ji{-}Rong Wen},
+   title = {KB4Rec: A Data Set for Linking Knowledge Bases with Recommender Systems},
+   journal = {Data Intelligence},
+   volume = {1},
+   number = {2},
+   pages = {121-136},
+   year = {2019},
+   doi = {10.1162/dint\_a\_00008},
+
+   URL = {https://doi.org/10.1162/dint_a_00008},
+}
 ```
-You can also find code on [UPGAN](https://github.com/RichardHGL/UPGAN).
+Nobody guarantees the correctness of the data, its suitability for any particular purpose, or the validity of results based on the use of the data set. The data set may be used for any research purposes under the following conditions:
+* The user must acknowledge the use of the data set in publications resulting from the use of the data set.
+* The user may not redistribute the data without separate permission.
+* The user may not try to deanonymise the data.
+* The user may not use this information for any commercial or revenue-bearing purposes without first obtaining permission from us.
