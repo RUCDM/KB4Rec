@@ -10,6 +10,7 @@ We released a linked dataset for research on knowledge-aware recommender systems
 * [Licence](#Licence)
 * [References](#References)
 * [Related Papers](#Papers)
+* [DOI](#DOI)
 * [Additional Notes](#Addition)
 
 ## <div id="Motivations"></div>Motivations
@@ -157,7 +158,7 @@ You can cite this dataset as below.
 We also strongly recommend you to cite the original papers that share the copies of recommender system datasets [5,6,7] and knowledge bases [8]. You can find the related references in our paper. 
 
 ## <div id="Papers"></div>Related Papers
-<strong><div id="Ref-DI-2019"></div>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008)</strong>
+<strong><div id="Ref-DI-2019"></div>[1]  Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen : KB4Rec: A Dataset for Linking Knowledge Bases with Recommender Systems. [paper](https://doi.org/10.1162/dint_a_00008) [ScienceDB](http://www.scidb.cn/en/detail?dataSetId=760619497378807808&code=5e05cb5d64a42fa9add9b7ae&tID=journalOne&dataSetType=journal&language=en_US)</strong>
 
 <strong><div id="Ref-SIGIR-2018"></div>[2] Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang : Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)</strong>
 
@@ -176,6 +177,10 @@ We also strongly recommend you to cite the original papers that share the copies
 <!--
 * Jin Huang, Wayne Xin Zhao, Hong-Jian Dou, Ji-Rong Wen, Edward Y. Chang. Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. [paper](https://dl.acm.org/citation.cfm?doid=3209978.3210017) [code](https://github.com/BetsyHJ/KSR)
 -->
+
+## <div id="DOI"></div>DOI
+* [Paper](https://doi.org/10.1162/dint_a_00008) in DI journal: 10.1162/dint_a_00008
+* [Dataset](https://doi.org/10.11922/sciencedb.j00104.00002): 10.11922/sciencedb.j00104.00002
 
 ## <div id="Addition"></div>Additional Notes
 * The following people contributed to the the construction of the KB4Rec v1.0 dataset: Wayne Xin Zhao, Gaole He, Hongjian Dou, Jin Huang, Siqi Ouyang and Ji-Rong Wen. This project is lead by Wayne Xin Zhao, School of Information, Renmin University of China.
