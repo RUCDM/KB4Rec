@@ -1,11 +1,17 @@
 ## Description
-We have three separate files for the three different domains. The three files are:
+We have six separate files for the three different domains. The six files are:
 
 * ml2fb.txt: MovieLens 20M to Freebase;
 
 * lfb2fb.txt:  LFM-1b to Freebase;
 
 * ab2fb.txt:  Amazon book to Freebase;
+
+* ml2yago.txt: MovieLens 20M to YAGO;
+
+* lfb2yago.txt:  LFM-1b to YAGO;
+
+* ab2yago.txt:  Amazon book to YAGO;
 
 In our KB4Rec v1.0 dataset, we organized the linkage results by linked ID pairs, which consists of a RS item ID and a KB entity ID. All the IDs are inner values from the original datasets. Here, we present a sample snippet of our linkage results for MovieLens 20M, in which we pair a MovieLens item ID with a Freebase entity ID.
 
