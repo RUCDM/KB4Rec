@@ -41,6 +41,7 @@ Once such a linkage has been accomplished, it is able to reuse existing large-sc
    We present the statistics of the linked dataset in the following table:
    
    ![detail statistics](table_new.png)
+   ### Attention! the number of users of Amazon Book is 8,026,324, rather than 3,468,412 reported in journal paper. You can address it with this [issue](https://github.com/RUCDM/KB4Rec/issues/7)
 <!--
 ### Linkage Detail Statistics：
 | Dataset                 | Items      |    Linked-Items    |  Linkage-ratio   | 
